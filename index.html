@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite HVAC Calgary - Premium Heating & Cooling Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">ELITE HVAC</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-us">Why Us</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="cta-btn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get Quote</button>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">Calgary's Premier HVAC Experts</div>
+            <h1>
+                Luxury Comfort.<br>
+                <span class="gold-text">Professional Excellence.</span>
+            </h1>
+            <p class="hero-subtitle">
+                Experience unparalleled heating and cooling solutions from Calgary's most trusted HVAC specialists. 
+                Premium service, exceptional results, guaranteed satisfaction.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                    Schedule Service
+                </button>
+                <button class="btn-secondary" onclick="document.getElementById('services').scrollIntoView({behavior: 'smooth'})">
+                    Our Services
+                </button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">25+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">5,000+</span>
+                    <span class="stat-label">Happy Clients</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Emergency Service</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header">
+            <div class="section-badge">What We Offer</div>
+            <h2 class="section-title">Premium HVAC Solutions</h2>
+            <p class="section-subtitle">Comprehensive heating and cooling services tailored to your comfort needs</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🔥</div>
+                <h3>Furnace Services</h3>
+                <p>Expert furnace installation, repair, and maintenance. Keep your home warm and efficient all winter long with our certified technicians.</p>
+                <a href="#contact" class="service-link">Learn More →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">❄️</div>
+                <h3>Air Conditioning</h3>
+                <p>Professional AC installation and repair services. Stay cool during Calgary's hot summers with our premium cooling solutions.</p>
+                <a href="#contact" class="service-link">Learn More →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3>HVAC Maintenance</h3>
+                <p>Comprehensive maintenance plans to keep your system running at peak performance. Prevent costly repairs with regular servicing.</p>
+                <a href="#contact" class="service-link">Learn More →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Emergency Repairs</h3>
+                <p>24/7 emergency HVAC services when you need us most. Fast response times and reliable solutions for urgent heating and cooling issues.</p>
+                <a href="#contact" class="service-link">Learn More →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">💧</div>
+                <h3>Water Heaters</h3>
+                <p>Installation and repair of residential and commercial water heating systems. Efficient, reliable hot water solutions.</p>
+                <a href="#contact" class="service-link">Learn More →</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🌡️</div>
+                <h3>Thermostats</h3>
+                <p>Smart thermostat installation and programming. Optimize your comfort and reduce energy costs with modern climate control.</p>
+                <a href="#contact" class="service-link">Learn More →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose" id="why-us">
+        <div class="section-header">
+            <div class="section-badge" style="background: rgba(212, 175, 55, 0.2); color: var(--gold);">Our Difference</div>
+            <h2 class="section-title" style="color: var(--cream);">Why Elite HVAC?</h2>
+            <p class="section-subtitle" style="color: rgba(250, 248, 243, 0.7);">The gold standard in Calgary HVAC services</p>
+        </div>
+        <div class="why-grid">
+            <div class="why-item">
+                <div class="why-icon">⚡</div>
+                <h3>Rapid Response</h3>
+                <p>Same-day service available. We understand Calgary's extreme weather - when you need us, we're there fast.</p>
+            </div>
+            <div class="why-item">
+                <div class="why-icon">✓</div>
+                <h3>Licensed & Insured</h3>
+                <p>Fully certified technicians with comprehensive insurance. Your home and investment are in safe hands.</p>
+            </div>
+            <div class="why-item">
+                <div class="why-icon">💎</div>
+                <h3>Premium Quality</h3>
+                <p>We use only top-tier equipment and materials. No shortcuts, no compromises - just excellence.</p>
+            </div>
+            <div class="why-item">
+                <div class="why-icon">💰</div>
+                <h3>Fair Pricing</h3>
+                <p>Transparent, honest pricing with no hidden fees. Competitive rates without sacrificing quality.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="section-header">
+            <div class="section-badge">Testimonials</div>
+            <h2 class="section-title">What Our Clients Say</h2>
+            <p class="section-subtitle">Real reviews from real Calgary homeowners</p>
+        </div>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="review-text">"Needed my furnace and water tank replaced as they were over 20 years old. The team were knowledgeable, accommodating and meticulous in their work. Quoted me a fair price and finished the job professionally. Highly recommend!"</p>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">AB</div>
+                    <div class="reviewer-info">
+                        <div class="reviewer-name">Aleks B.</div>
+                        <div class="reviewer-time">4 years ago</div>
+                    </div>
+                    <div class="verified-badge">VERIFIED</div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="review-text">"Amazing service - quality work! Needed our furnace serviced immediately on Friday of the long weekend! After reading great reviews, contacted them and they replied right away and made room in their schedule the same day. Couldn't ask for better!"</p>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">MG</div>
+                    <div class="reviewer-info">
+                        <div class="reviewer-name">MC Guyette</div>
+                        <div class="reviewer-time">8 years ago</div>
+                    </div>
+                    <div class="verified-badge">VERIFIED</div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="review-text">"My furnace had stopped running and I had my baby home with me. When I called, they indicated they would come around 4-5 PM but showed up within 30 minutes! Got me up and running quickly. Outstanding service!"</p>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">JL</div>
+                    <div class="reviewer-info">
+                        <div class="reviewer-name">Jonelle L.</div>
+                        <div class="reviewer-time">9 years ago</div>
+                    </div>
+                    <div class="verified-badge">VERIFIED</div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="review-text">"I have an older furnace which started shutting off during winter. After having two other companies work on it for several hundred dollars with no resolution, these guys diagnosed and fixed the issue immediately. Professional and honest!"</p>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">DP</div>
+                    <div class="reviewer-info">
+                        <div class="reviewer-name">Deb P.</div>
+                        <div class="reviewer-time">10 years ago</div>
+                    </div>
+                    <div class="verified-badge">VERIFIED</div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="review-text">"Excellent communication, prompt, professional, efficient and affordable service. As a tradesperson myself I know knowledge and quality when I see it. Highly recommended!"</p>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">CM</div>
+                    <div class="reviewer-info">
+                        <div class="reviewer-name">Craig M.</div>
+                        <div class="reviewer-time">2 years ago</div>
+                    </div>
+                    <div class="verified-badge">VERIFIED</div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p class="review-text">"Very knowledgeable on all aspects of HVAC. They get it right the first time, very trustworthy. Have used them for over five years and have always been totally satisfied. Professional, reliable and a pleasure to work with."</p>
+                <div class="reviewer">
+                    <div class="reviewer-avatar">MV</div>
+                    <div class="reviewer-info">
+                        <div class="reviewer-name">Margaret V.</div>
+                        <div class="reviewer-time">10 years ago</div>
+                    </div>
+                    <div class="verified-badge">VERIFIED</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Ready for Superior Comfort?</h2>
+            <p>Experience the Elite HVAC difference. Professional service, exceptional results, guaranteed satisfaction.</p>
+            <button class="btn-primary" style="font-size: 18px; padding: 20px 50px;" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                Get Your Free Quote
+            </button>
+            <div class="cta-features">
+                <div class="cta-feature">
+                    <span class="cta-feature-icon">✓</span>
+                    <span>24/7 Emergency Service</span>
+                </div>
+                <div class="cta-feature">
+                    <span class="cta-feature-icon">✓</span>
+                    <span>Licensed & Insured</span>
+                </div>
+                <div class="cta-feature">
+                    <span class="cta-feature-icon">✓</span>
+                    <span>Satisfaction Guaranteed</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <div class="section-badge">Get In Touch</div>
+            <h2 class="section-title">Contact Elite HVAC</h2>
+            <p class="section-subtitle">We're here to help with all your heating and cooling needs</p>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-item-icon">📞</div>
+                    <div>
+                        <h3>Call Us</h3>
+                        <p><a href="tel:403-555-HVAC">(403) 555-HVAC</a></p>
+                        <p>24/7 Emergency Service Available</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-item-icon">✉️</div>
+                    <div>
+                        <h3>Email Us</h3>
+                        <p><a href="mailto:info@elitehvac.ca">info@elitehvac.ca</a></p>
+                        <p>We respond within 24 hours</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-item-icon">📍</div>
+                    <div>
+                        <h3>Visit Us</h3>
+                        <p>123 HVAC Way<br>Calgary, AB T2P 1A1</p>
+                        <p>Monday - Friday: 8AM - 6PM<br>Saturday: 9AM - 4PM<br>Sunday: Emergency Only</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Request a Quote</h3>
+                <form onsubmit="event.preventDefault(); alert('Thank you! We\'ll contact you within 24 hours.');">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="tel" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Service Needed</label>
+                        <select required>
+                            <option value="">Select a service</option>
+                            <option value="furnace">Furnace Service</option>
+                            <option value="ac">Air Conditioning</option>
+                            <option value="maintenance">Maintenance</option>
+                            <option value="emergency">Emergency Repair</option>
+                            <option value="water-heater">Water Heater</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea placeholder="Tell us about your HVAC needs..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary" style="width: 100%;">Send Request</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Elite HVAC Calgary</h4>
+                <p>Calgary's premier heating and cooling specialists. Professional service, exceptional results, guaranteed satisfaction since 1998.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <a href="#services">Furnace Services</a>
+                <a href="#services">Air Conditioning</a>
+                <a href="#services">Maintenance Plans</a>
+                <a href="#services">Emergency Repairs</a>
+            </div>
+            <div class="footer-section">
+                <h4>Company</h4>
+                <a href="#why-us">About Us</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+                <a href="#">Careers</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <a href="tel:403-555-HVAC">(403) 555-HVAC</a>
+                <a href="mailto:info@elitehvac.ca">info@elitehvac.ca</a>
+                <p>123 HVAC Way<br>Calgary, AB T2P 1A1</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Elite HVAC Calgary. All rights reserved. | Licensed & Insured</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
